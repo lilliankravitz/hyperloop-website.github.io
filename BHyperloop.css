@@ -1,0 +1,745 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;  */
+
+body {
+    margin: 0px;
+    min-height: 800px;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: auto 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 6%;
+    position: relative;
+    background-color: #F5F3F2;
+    z-index: 6;
+    position: fixed;
+    opacity: 0.75;
+}
+
+ul.topnav li{
+    float: right;
+    padding-right: 0.5%;
+}
+
+ul.topnav li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 2vmin;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+ul.topnav li a:hover{
+    background-color: #CFCCCB;
+}
+
+
+#B{
+    position: fixed;
+    width: auto;
+    height: 6%;
+    z-index: 7;
+    padding-left: 0.5%;
+}
+
+@media screen and (max-width: 500px) {
+    #B {
+        height: 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    ul.topnav li {
+        margin-right: -3%;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    ul.topnav li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    ul.topnav li a {
+        font-size: 8px;
+    }
+}
+.Home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      rgba(250,251,255,0.6),
+      rgba(250,251,255,0.6)
+      ),
+    url(BackgoundTest.jpg);
+    /*background: url("Hexagon-1.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#BingB{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 17%;
+}
+  
+
+
+/* -------------- ABOUT -----------------*/
+
+.About {
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(
+      rgba(250,251,255,1),
+      rgba(250,251,255,0.37)
+      ),
+    url(7.jpg);
+    margin-top: -2%;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .About {
+        margin-top: -6%;
+    }
+}
+.About h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    text-align: center;
+    color: #565656;
+    padding-top: 2%;
+}
+
+/*@media screen and (max-width: 1000px) {
+    .About h1 {
+        font-size: 230%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .About h1 {
+        font-size: 170%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .About h1 {
+        font-size: 140%;
+    }
+}*/
+
+.About p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3vmin;
+    text-align: center;
+    color: #565656;
+    padding: 2% 15% 0 15%;
+    line-height: 1.75;
+
+}
+
+@media only screen and (min-width:600px) and (max-width: 800px)  {
+    .About p{
+        font-size: 2.5vmin;
+    }
+
+}
+
+@media only screen and (min-width:800px) and (max-width: 875px)  {
+    .About h1{
+        font-size: 4vmin;
+    }
+
+}
+
+@media only screen and (max-width: 450px)  {
+    .About{
+        height: 40vh;
+    }
+
+}
+
+
+.About h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4vmin;
+    text-align: right;
+    color: #565656;
+    padding: 2% 15% 0 15%;
+    font-weight: 600;
+}
+
+
+/* -------------- TEAM -----------------*/
+
+.Team{
+    width: 100%;
+    height: 150vh;
+    background: url("polygon-7.jpg");
+    background-attachment: fixed;
+    margin-top: -2%;
+
+}
+
+.Team h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    text-align: center;
+    color: #D5D5D5;
+    padding-top: 2%;
+
+}
+
+@media screen and (max-width: 800px) {
+    .Team {
+        margin-top: -6%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Team {
+        height: 100vh;
+    }
+}
+
+
+.col-xs-2{
+    background-color: transparent;
+    height: 70%;
+}
+ .toprow{
+    margin-top: 2%;
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+ }
+
+  .secondrow{
+    margin-top: 4%;
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+ }
+
+  .thirdrow{
+    margin-top: 2%;
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+ }
+
+   .fourthrow{
+    margin-top: 2%;
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+ }
+
+    .fifthrow{
+    margin-top: 2%;
+    width: 100%;
+    height: 15%;
+    background-color: transparent;
+ }
+
+ @media screen and (max-width: 500px) {
+    .secondrow {
+        margin-left: -4%;
+    }
+}
+
+ @media screen and (max-width: 500px) {
+    .thirdrow {
+        margin-left: -4%;
+    }
+}
+
+ @media screen and (max-width: 500px) {
+    .fourthrow {
+        margin-left: -4%;
+    }
+}
+
+ @media screen and (max-width: 500px) {
+    .fifthrow {
+        margin-left: -4%;
+    }
+}
+
+.headshot{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #9099A2;
+    height: 100%;
+    width: 55%;
+    background-size: cover;
+    background-position: center;
+    margin-left: 22%;
+    transition: all 0.3s ease;
+}
+
+.headshot:hover{
+    border-color: #EFEFEF;
+    transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+}
+
+@media screen and (max-width: 1000px) {
+    .headshot {
+        height: 90%;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .headshot {
+        height: 90%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .headshot {
+        height: 70%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .headshot {
+        height: 40%;
+        width: 100%;
+        border-width: 1px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .headshot {
+        height: 70%;
+        width: 170%;
+    }
+}
+
+
+
+#Brian{
+    background-image: url("Brian2.jpg");
+}
+
+#Steve{
+    background-image: url("Steve.jpg");
+}
+
+#Lucas{
+    background-image: url("Lucas.jpg");
+}
+#Kirill{
+    background-image: url("Kirill.jpg");
+}
+#Aleck{
+    background-image: url("Alex.jpg");
+}
+#Andy{
+    background-image: url("Andy.jpg");
+}
+#Cassidy{
+    background-image: url("Cassidy.jpg");
+}
+#Christina{
+    background-image: url("Christina.jpg");
+}
+#Charlie{
+    background-image: url("Charlie.jpg");
+}
+#Miles{
+    background-image: url("Miles.jpg");
+}
+#Tom{
+    background-image: url("Tom.jpg");
+}
+#Elise{
+    background-image: url("Elise.jpg");
+}
+#Lillian{
+    background-image: url("Lillian Headshot.jpg");
+}
+#VictorLi{
+    background-image: url("VictorLi.jpg");
+}
+#Kara{
+    background-image: url("Kara.jpg");
+}
+#Lauren{
+    background-image: url("Lauren.jpg");
+}
+#Clay{
+    background-image: url("Clay.jpg");
+}
+#Tyler{
+    background-image: url("Tyler.jpg");
+}
+#Monika{
+    background-image: url("Monika.jpg");
+}
+#Reuben{
+    background-image: url("Reuben.jpg");
+}
+#Matt{
+    background-image: url("Matt.jpg");
+}
+#Jay{
+    background-image: url("Jay.jpg");
+}
+#Abby{
+    background-image: url("Abby.jpg");
+}
+#Ashley{
+    background-image: url("Ashley.jpg");
+}
+#Quinn{
+    background-image: url("Quinn.jpg");
+}
+#Doris{
+    background-image: url("Doris.jpg");
+}
+#VictorYu{
+    background-image: url("VictorYu.jpg");
+}
+#Wen{
+    background-image: url("Wen.jpg");
+}
+.col-xs-2 p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2vmin;
+    color: #D5D5D5;
+    text-align: center;
+    margin-top: 1%;
+    letter-spacing: 1px;
+    
+
+}
+
+@media screen and (max-width: 1000px) {
+    .col-xs-2 p {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .col-xs-2 p {
+        font-size: 10px;
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .col-xs-2 p {
+        font-size: 6px;
+        margin-left: 80%;
+    }
+}
+
+
+/* -------------- COMPETITION -----------------*/
+
+
+.Competition{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(
+      rgba(250,251,255,0.8),
+      rgba(250,251,255,0.2)
+      ),
+    url(7.jpg);
+    background-size: cover;
+    margin-top: -2%;
+}
+
+@media screen and (max-width: 1000px) {
+    .Competition {
+        margin-top: -4%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Competition {
+        margin-top: -6%;
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Competition {
+        height: 35vh;
+    }
+}
+
+.Competition h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    text-align: center;
+    color: #565656;
+    padding-top: 2%;
+}
+
+#PodSteam{
+    width: auto;
+    height: 40%;
+    margin-top: -5%;
+}
+
+.Competition p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3vmin;
+    text-align: center;
+    color: #565656;
+    padding: 2% 15% 0 15%;
+    line-height: 1.75;
+}
+
+.Competition ul{
+    list-style-type: none;
+    text-align: center;
+}
+#Icons img{
+    width: 6%;
+    height: 6%;
+    transition: all 0.3s ease;
+}
+
+#Icons img:hover{
+    transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+
+}
+.Competition li{
+    display: inline;
+    padding: 0 7% 0 7%;
+}
+
+.Icons-Text li{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5vmin;
+    padding: 0 5% 0 5%;
+}
+
+@media screen and (max-width: 700px) {
+    .Icons-Text li {
+        padding: 0 1% 0 1%;
+    }
+}
+
+/* -------------- SPONSORS -----------------*/
+
+.Sponsors{
+    width: 100%;
+    height: 115vh;
+    background: linear-gradient(
+      rgba(250,251,255,0.5),
+      rgba(250,251,255,0.6)
+      ),
+    url(polygon-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -2%;
+}
+@media screen and (max-width: 1000px) {
+    .Sponsors {
+        margin-top: -3%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Sponsors{
+        margin-top: -8%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Sponsors{
+        margin-top: -8%;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Sponsors{
+        margin-top: -8%;
+        height: 60vh;
+    }
+}
+
+.Sponsors h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    text-align: center;
+    color: #1E392A;
+    padding-top: 2%;
+}
+
+.Sponsors h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4vmin;
+    text-align: center;
+    color: #1E392A;
+    padding: 2% 5% 0 5%;
+    
+}
+
+
+#BUWLOGO{
+    height: auto;
+    width: 50%;
+    padding: 2% 5%;
+}
+
+#AVANGRID{
+    height: auto;
+    width: 20%;
+    margin-left: 10%;
+}
+.BlackLine{
+    width: 100%;
+    height: 0.5%;
+    background-color: #1E392A;
+    opacity: 0.6;
+    margin-top: 6%;
+}
+#Plant img{
+    height: 10%;
+    transition: all 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+#Plant img:hover{
+    transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
+
+#GoFundMe{
+    width: auto;
+    height: 8%;
+    transition: all 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+#GoFundMe:hover{
+    transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
+
+/* -------------- SPONSORS -----------------*/
+.Contact{
+    width: 100%;
+    height: 35vh;
+    background: linear-gradient(
+      rgba(250,251,255,0.8),
+      rgba(250,251,255,0.2)
+      ),
+    url(7.jpg);
+    background-size: cover;
+    margin-top: -2%;
+}
+
+@media screen and (max-width: 800px) {
+    .Contact {
+        margin-top: -5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Contact {
+        margin-top: -6%;
+        height: 25vh;
+    }
+}
+
+.Contact h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    text-align: center;
+    color: #565656;
+    padding-top: 2%;
+}
+
+.Contact h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3.5vmin;
+    text-align: center;
+    color: #565656;
+}
+
+.Contact h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3vmin;
+    text-align: center;
+    color: #565656;
+}
+
+#facebook img {
+    width: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease;
+}
+
+#facebook img:hover{
+    transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
+
+/* -------------- FOOTER -----------------*/
+
+.Footer{
+    width: 100%;
+    height: 5vh;
+    background-color: #565656;
+    background-size: cover;
+}
+
+@media screen and (max-width: 400px) {
+    .Footer {
+        height: 3vh;
+    }
+}
+
+.Footer p{
+    font-family: 'Titillium Web', sans-serif;
+    color: #D5D5D5;
+    text-align: center;
+    padding-top: 0.5%;
+    letter-spacing: 1px;
+    padding-right: 2%;
+    font-size: 2vmin;
+}
+
+
