@@ -83,11 +83,11 @@ ul.topnav li a:hover{
       rgba(250,251,255,0.6),
       rgba(250,251,255,0.6)
       ),
-    url(BackgoundTest.jpg);
+    url(BackgoundTest2.jpg);
     /*background: url("Hexagon-1.jpg");*/
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
 }
 #BingB{
     height: auto;
@@ -97,7 +97,27 @@ ul.topnav li a:hover{
     width: 50%;
     padding-top: 17%;
 }
-  
+
+@media screen and (max-width: 900px) {
+    #BingB{
+        padding-top: 30%;
+        width: 70%;
+    }
+} 
+
+@media screen and (max-width: 700px) {
+    #BingB{
+        padding-top: 40%;
+        width: 70%;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    #BingB{
+        padding-top: 70%;
+        width: 75%;
+    }
+}   
 
 
 /* -------------- ABOUT -----------------*/
@@ -488,7 +508,7 @@ ul.topnav li a:hover{
 
 @media screen and (max-width: 500px) {
     .Competition {
-        height: 35vh;
+        height: 45vh;
     }
 }
 
