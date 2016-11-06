@@ -88,6 +88,7 @@ ul.topnav li a:hover{
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    background-repeat: none;
 }
 #BingB{
     height: auto;
@@ -100,7 +101,7 @@ ul.topnav li a:hover{
 
 @media screen and (max-width: 700px) {
     .Home{
-        background-size: auto;
+        background-size: initial;
     }
 } 
 
