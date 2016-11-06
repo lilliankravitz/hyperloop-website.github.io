@@ -479,10 +479,11 @@ ul.topnav li a:hover{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .col-xs-2 p {
         font-size: 6px;
-        margin-left: 80%;
+        margin-left: 60%;
+        text-align: left;
     }
 }
 
