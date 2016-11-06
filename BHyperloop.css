@@ -83,11 +83,11 @@ ul.topnav li a:hover{
       rgba(250,251,255,0.6),
       rgba(250,251,255,0.6)
       ),
-    url(Hexagon-3.jpg);
+    url(BackgoundTest2.jpg);
     /*background: url("Hexagon-1.jpg");*/
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom center;
+    background-position: center center;
 }
 #BingB{
     height: auto;
@@ -139,6 +139,18 @@ ul.topnav li a:hover{
         margin-top: -6%;
     }
 }
+
+@media screen and (min-width:800px) and (max-width: 910px) {
+    .About {
+        height: 55vh;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width: 610px) {
+    .About {
+        height: 55vh;
+    }
+}
 .About h1{
     font-family: 'Oswald', sans-serif;
     font-size: 5vmin;
@@ -147,23 +159,6 @@ ul.topnav li a:hover{
     padding-top: 2%;
 }
 
-/*@media screen and (max-width: 1000px) {
-    .About h1 {
-        font-size: 230%;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .About h1 {
-        font-size: 170%;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .About h1 {
-        font-size: 140%;
-    }
-}*/
 
 .About p{
     font-family: 'Titillium Web', sans-serif;
@@ -204,6 +199,13 @@ ul.topnav li a:hover{
     color: #565656;
     padding: 2% 15% 0 15%;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 500px)  {
+    .About h5{
+        text-align: center;
+    }
+
 }
 
 
@@ -729,6 +731,12 @@ ul.topnav li a:hover{
     margin-left: auto;
     margin-right: auto;
     transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 500px) {
+    #facebook img {
+        width: 8%;
+    }
 }
 
 #facebook img:hover{
