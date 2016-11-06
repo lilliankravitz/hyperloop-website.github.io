@@ -102,6 +102,7 @@ ul.topnav li a:hover{
 @media screen and (max-width: 700px) {
     .Home{
         background-size: initial;
+        background-repeat: none;
     }
 } 
 
