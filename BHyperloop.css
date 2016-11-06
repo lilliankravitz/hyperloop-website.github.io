@@ -101,12 +101,14 @@ ul.topnav li a:hover{
 @media screen and (max-width: 900px) {
     #BingB{
         padding-top: 30%;
+        width: 70%;
     }
 } 
 
 @media screen and (max-width: 700px) {
     #BingB{
         padding-top: 40%;
+        width: 70%;
     }
 } 
 
