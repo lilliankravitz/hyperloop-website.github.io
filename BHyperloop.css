@@ -98,6 +98,12 @@ ul.topnav li a:hover{
     padding-top: 17%;
 }
 
+@media screen and (max-width: 700px) {
+    .Home{
+        background-size: auto;
+    }
+} 
+
 @media screen and (max-width: 900px) {
     #BingB{
         padding-top: 30%;
