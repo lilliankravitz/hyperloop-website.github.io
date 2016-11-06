@@ -500,6 +500,7 @@ ul.topnav li a:hover{
       ),
     url(7.jpg);
     background-size: cover;
+    background-repeat: none;
     margin-top: -2%;
 }
 
