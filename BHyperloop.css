@@ -80,14 +80,14 @@ ul.topnav li a:hover{
     width: 100%;
     height: 100vh;
     background: linear-gradient(
-      rgba(250,251,255,0.6),
-      rgba(250,251,255,0.6)
+      rgba(250,251,255,0.5),
+      rgba(250,251,255,0.5)
       ),
-    url(BackgoundTest2.jpg);
+    url(Hexagon-3.jpg);
     /*background: url("Hexagon-1.jpg");*/
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-repeat: none;
 }
 #BingB{
     height: auto;
@@ -97,6 +97,13 @@ ul.topnav li a:hover{
     width: 50%;
     padding-top: 17%;
 }
+
+@media screen and (max-width: 700px) {
+    .Home{
+        background-size: auto;
+        background-repeat: none;
+    }
+} 
 
 @media screen and (max-width: 900px) {
     #BingB{
@@ -124,39 +131,51 @@ ul.topnav li a:hover{
 
 .About {
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     background: linear-gradient(
       rgba(250,251,255,1),
       rgba(250,251,255,0.37)
       ),
     url(7.jpg);
     margin-top: -2%;
+    background-repeat: none;
+    background-size: cover;
 
 }
 
 @media screen and (max-width: 1000px) {
     .About {
         margin-top: -6%;
+        height: 100vh;
     }
 }
 
-@media screen and (min-width:800px) and (max-width: 910px) {
-    .About {
-        height: 55vh;
+@media screen and (max-width: 550px) {
+    .About{
+        height: 80vh;
+        }
     }
-}
 
-@media screen and (min-width:550px) and (max-width: 610px) {
-    .About {
-        height: 55vh;
+@media screen and (max-width: 450px) {
+    .About{
+        height: 70vh;
+        }
     }
-}
+
 .About h1{
     font-family: 'Oswald', sans-serif;
     font-size: 5vmin;
     text-align: center;
     color: #565656;
     padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.About h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4vmin;
+    text-align: center;
+    color: #565656;
 }
 
 
@@ -165,7 +184,7 @@ ul.topnav li a:hover{
     font-size: 3vmin;
     text-align: center;
     color: #565656;
-    padding: 2% 15% 0 15%;
+    padding: 0% 15% 0 15%;
     line-height: 1.75;
 
 }
@@ -184,12 +203,7 @@ ul.topnav li a:hover{
 
 }
 
-@media only screen and (max-width: 450px)  {
-    .About{
-        height: 40vh;
-    }
 
-}
 
 
 .About h5{
@@ -217,7 +231,8 @@ ul.topnav li a:hover{
     background: url("polygon-7.jpg");
     background-attachment: fixed;
     margin-top: -2%;
-
+    background-repeat: none;
+    background-size: cover;
 }
 
 .Team h1{
@@ -472,10 +487,11 @@ ul.topnav li a:hover{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .col-xs-2 p {
         font-size: 6px;
-        margin-left: 80%;
+        margin-left: 70%;
+        text-align: center;
     }
 }
 
@@ -492,6 +508,7 @@ ul.topnav li a:hover{
       ),
     url(7.jpg);
     background-size: cover;
+    background-repeat: none;
     margin-top: -2%;
 }
 
@@ -656,9 +673,9 @@ ul.topnav li a:hover{
 }
 
 #Plant img:hover{
-    transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
+    transform: scale(1.09);
+  -webkit-transform: scale(1.09);
+  -moz-transform: scale(1.09);
 }
 
 #GoFundMe{
