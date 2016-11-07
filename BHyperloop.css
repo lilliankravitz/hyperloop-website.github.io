@@ -673,9 +673,9 @@ ul.topnav li a:hover{
 }
 
 #Plant img:hover{
-    transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
+    transform: scale(1.12);
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
 }
 
 #GoFundMe{
@@ -694,7 +694,7 @@ ul.topnav li a:hover{
   -moz-transform: scale(1.05);
 }
 
-/* -------------- SPONSORS -----------------*/
+/* -------------- CONTACT -----------------*/
 .Contact{
     width: 100%;
     height: 35vh;
