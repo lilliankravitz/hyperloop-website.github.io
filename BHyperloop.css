@@ -490,7 +490,7 @@ ul.topnav li a:hover{
 @media screen and (max-width: 500px) {
     .col-xs-2 p {
         font-size: 6px;
-        margin-left: 60%;
+        margin-left: 70%;
         text-align: left;
     }
 }
