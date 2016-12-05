@@ -191,6 +191,12 @@ ul.topnav li a:hover{
         }
     }
 
+@media screen and (max-width: 400px) {
+    .About{
+        height: 75vh;
+        }
+    }
+
 .About h1{
     font-family: 'Oswald', sans-serif;
     font-size: 5vmin;
