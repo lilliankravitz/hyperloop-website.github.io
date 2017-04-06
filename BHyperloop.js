@@ -22,9 +22,8 @@ $(document).ready(function(){
 
 });
 
-//var thing = document.getElementById("PodSteam");
-//thing.style.left = scrollPos;
+$('.carousel').carousel({
+  interval: 2000
+});
 
-//window.onscroll = {}
 
-//var a = element.scrollTop;

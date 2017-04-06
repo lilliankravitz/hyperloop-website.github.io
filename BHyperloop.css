@@ -160,7 +160,7 @@ ul.topnav li a:hover{
 
 .About {
     width: 100%;
-    height: 90vh;
+    height: 120vh;
     background: linear-gradient(
       rgba(250,251,255,1),
       rgba(250,251,255,0.37)
@@ -175,19 +175,26 @@ ul.topnav li a:hover{
 @media screen and (max-width: 1000px) {
     .About {
         margin-top: -6%;
-        height: 100vh;
+        height: 130vh;
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 840px) {
+    .About {
+        margin-top: -6%;
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .About{
-        height: 80vh;
+        height: 150vh;
         }
     }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .About{
-        height: 70vh;
+        height: 110vh;
         }
     }
 
@@ -206,6 +213,15 @@ ul.topnav li a:hover{
     padding-bottom: 2%;
 }
 
+.About p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3vmin;
+    text-align: center;
+    color: #565656;
+    padding: 2% 15% 0 15%;
+    line-height: 1.75;
+}
+
 .About h6{
     font-family: 'Titillium Web', sans-serif;
     font-size: 4vmin;
@@ -213,16 +229,6 @@ ul.topnav li a:hover{
     color: #565656;
 }
 
-
-.About p{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 3vmin;
-    text-align: center;
-    color: #565656;
-    padding: 0% 15% 0 15%;
-    line-height: 1.75;
-
-}
 
 @media only screen and (min-width:600px) and (max-width: 800px)  {
     .About p{
@@ -237,8 +243,6 @@ ul.topnav li a:hover{
     }
 
 }
-
-
 
 
 .About h5{
@@ -536,7 +540,7 @@ ul.topnav li a:hover{
 
 .Competition{
     width: 100%;
-    height: 60vh;
+    height: 170vh;
     background: linear-gradient(
       rgba(250,251,255,0.8),
       rgba(250,251,255,0.2)
@@ -547,24 +551,28 @@ ul.topnav li a:hover{
     margin-top: -2%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 990px) {
     .Competition {
         margin-top: -4%;
+        height: 160vh;
     }
 }
 
 @media screen and (max-width: 600px) {
     .Competition {
         margin-top: -6%;
-        height: 45vh;
+        height: 130vh;
     }
 }
 
 @media screen and (max-width: 500px) {
     .Competition {
-        height: 45vh;
+        margin-top: -6%;
+        height: 120vh;
     }
 }
+
+
 
 .Competition h1{
     font-family: 'Oswald', sans-serif;
@@ -573,11 +581,57 @@ ul.topnav li a:hover{
     color: #565656;
     padding-top: 2%;
 }
+.status{
+    height: 16%;
+}
+
+@media screen and (max-width: 1000px) {
+    .status {
+        height: 13%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .status {
+        height: 12%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .status {
+        height: 16%;
+    }
+}
 
 #PodSteam{
     width: auto;
-    height: 40%;
-    margin-top: -5%;
+    height: 5%;
+    margin-top: 0%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #PodSteam {
+        height: 5%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #PodSteam {
+        height: 3%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #PodSteam {
+        height: 2%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #PodSteam {
+        height: 1%;
+    }
 }
 
 .Competition p{
@@ -585,14 +639,82 @@ ul.topnav li a:hover{
     font-size: 3vmin;
     text-align: center;
     color: #565656;
-    padding: 2% 15% 0 15%;
+    padding: 0% 15% 0 15%;
     line-height: 1.75;
+}
+
+.Competition h6{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4vmin;
+    text-align: center;
+    color: #565656;
+}
+
+.Competition h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4vmin;
+    text-align: center;
+    color: #565656;
+}
+
+.col-xs-6 {
+    /*background-color: blue;*/
+    height: 5%;
+}
+
+#checkMarks{
+    /*background-color: blue;*/
+    height: 20%;
+}
+
+#stones{
+    /*background-color: blue;*/
+    height: 8%;
+}
+
+@media screen and (max-width: 1000px) {
+    #stones {
+        height: 13%;
+    }
 }
 
 .Competition ul{
     list-style-type: none;
-    text-align: center;
 }
+
+#checkMarks img{
+    width: 7%;
+}
+
+#checkMarks{
+    padding-top: 1%;
+}
+
+#checkMarks li{
+    text-align: right;
+    padding: 1.2% 0 0 0;
+}
+
+#mileStones li{
+    text-align: left;
+    padding-top: 2.5%;
+}
+
+#mileStones ul{
+    padding-left: -10%;
+}
+
+#stones ul{
+    margin-left: -7%;
+}
+.Competition ul{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3.5vmin;
+    text-align: left;
+    color: #565656;
+}
+
+
 #Icons img{
     width: 6%;
     height: 6%;
@@ -604,10 +726,6 @@ ul.topnav li a:hover{
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
 
-}
-.Competition li{
-    display: inline;
-    padding: 0 7% 0 7%;
 }
 
 .Icons-Text li{
