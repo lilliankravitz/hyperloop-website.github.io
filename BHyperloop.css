@@ -817,6 +817,19 @@ ul.topnav li a:hover{
     padding: 2% 5%; 
 }
 
+#IBM { 
+    height: auto; 
+    width: 40%; 
+    margin-left: 10%; 
+    padding: 2% 5%; 
+}
+
+#LOCKHEED { 
+    height: auto; 
+    position: center; 
+    padding: 2% 5%; 
+}
+
 .BlackLine{
     width: 100%;
     height: 0.5%;
