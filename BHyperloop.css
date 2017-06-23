@@ -798,17 +798,23 @@ ul.topnav li a:hover{
 }
 
 
-#BUWLOGO{
+#BUWLOGO {
     height: auto;
     width: 50%;
     padding: 2% 5%;
 }
 
-#AVANGRID{
+#AVANGRID {
     height: auto;
     width: 20%;
     margin-left: 10%;
     padding: 2% 5%;
+}
+
+#STANFORD { 
+    height: auto; 
+    width: 50%; 
+    padding: 2% 5%; 
 }
 
 .BlackLine{
