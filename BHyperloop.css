@@ -804,30 +804,11 @@ ul.topnav li a:hover{
     padding: 2% 5%;
 }
 
-#AVANGRID {
+#adjust {
     height: auto;
     width: 20%;
     margin-left: 10%;
     padding: 2% 5%;
-}
-
-#STANFORD { 
-    height: auto; 
-    width: 65%; 
-    padding: 1% 2%; 
-}
-
-#IBM { 
-    height: auto; 
-    width: 20%; 
-    margin-left: 10%; 
-    padding: 2% 5%; 
-}
-
-#LOCKHEED { 
-    height: auto; 
-    padding: 2% 5%; 
-    margin-left: 40%;
 }
 
 .BlackLine{
