@@ -806,7 +806,8 @@ ul.topnav li a:hover{
 
 #VECTORNAV {
     height: auto;
-    width: 25%;;
+    width: 25%;
+    margin-left: 10%;
     padding: 2% 5%;
 }
 
