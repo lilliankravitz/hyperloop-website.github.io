@@ -804,6 +804,12 @@ ul.topnav li a:hover{
     padding: 2% 5%;
 }
 
+#BULOGO {
+    height: auto;
+    width: 30%;
+    padding: 2% 5%;
+}
+
 #AVAGRID {
     height: auto;
     width: 20%;
