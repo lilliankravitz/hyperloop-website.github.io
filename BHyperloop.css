@@ -757,13 +757,13 @@ ul.topnav li a:hover{
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .Sponsors{
         margin-top: -8%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .Sponsors{
         margin-top: -8%;
         height: 100vh;
@@ -773,7 +773,7 @@ ul.topnav li a:hover{
 @media screen and (max-width: 500px) {
     .Sponsors{
         margin-top: -8%;
-        height: 150vh;
+        height: 80vh;
     }
 }
 
@@ -790,8 +790,10 @@ ul.topnav li a:hover{
     font-size: 4vmin;
     text-align: center;
     color: #1E392A;
-    padding: 2% 5% 0 5%;  
+    padding: 2% 5% 0 5%;
+    
 }
+
 
 #BUWLOGO {
     height: auto;
@@ -949,5 +951,3 @@ ul.topnav li a:hover{
     padding-right: 2%;
     font-size: 2vmin;
 }
-
-
