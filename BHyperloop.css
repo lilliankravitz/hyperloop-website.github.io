@@ -97,7 +97,7 @@ ul.topnav li a:hover{
     margin-right: auto;
     width: 35%;
     padding-top: 21%;
-   
+
 }
 
 @media screen and (max-width: 700px) {
@@ -105,27 +105,27 @@ ul.topnav li a:hover{
         background-size: auto;
         background-repeat: none;
     }
-} 
+}
 
 @media screen and (max-width: 1300px) {
     #BingB{
         padding-top: 25%;
         width: 37%;
     }
-} 
+}
 
 @media screen and (max-width: 1150px) {
     #BingB{
         padding-top: 29%;
         width: 40%;
     }
-} 
+}
 
 @media screen and (max-width: 1000px) {
     #BingB{
         padding-top: 33%;
     }
-}   
+}
 
 @media screen and (max-width: 900px) {
     #BingB{
@@ -413,16 +413,63 @@ ul.topnav li a:hover{
     }
 }
 
-
-
-#Brian{
+#Darren{
+  background-image: url("/2018Headshots/Darren_Silvanic.jpg");
+}
+#Kasey{
+  background-image: url("/2018Headshots/Kasey_Hill.jpg");
+}
+#Boxu{
+  background-image: url("/2018Headshots/Boxu_Zhu.jpg");
+}
+#Kareem{
+  background-image: url("/2018Headshots/Kareem_Naseef.png");
+}
+#MattA{
+  background-image: url("/2018Headshots/Matthew_Abazis.jpg");
+}
+#MattF{
+  background-image: url("/2018Headshots/Matthew_Fariselli.jpg");
+}
+#Steve{
+  background-image: url("/2018Headshots/Steven_Mitchell.png");
+}
+#Anthony{
+  background-image: url("/2018Headshots/Anthony_Dorsa.jpg");
+}
+#Andrew{
+  background-image: url("/2018Headshots/Andrew_Kang.jpg");
+}
+#Connor{
+  background-image: url("/2018Headshots/Connor_Wickham.jpg");
+}
+#Christina{
+  background-image: url("/2018Headshots/Chirstina_Marino.png");
+}
+#Gilad{
+  background-image: url("/2018Headshots/Gilad_Greenstein.png");
+}
+#Kevin{
+  background-image: url("/2018Headshots/Kevin_Tarczali.jpg");
+}
+#Mike{
+  background-image: url("/2018Headshots/Michael_Torsone.jpg");
+}
+#David{
+  background-image: url("/2018Headshots/David_Bremer.png");
+}
+#Joseph{
+  background-image: url("/2018Headshots/Joseph_Modafferi.jpg");
+}
+#Sebastian{
+  background-image: url("/2018Headshots/Sebastian_Morales.jpg");
+}
+/* #Brian{
     background-image: url("Brian2.jpg");
 }
-
 #Steve{
     background-image: url("Steve.jpg");
 }
-
 #Lucas{
     background-image: url("Lucas.jpg");
 }
@@ -500,7 +547,9 @@ ul.topnav li a:hover{
 }
 #Wen{
     background-image: url("Wen.jpg");
-}
+} */
+
+
 .col-xs-2 p{
     font-family: 'Titillium Web', sans-serif;
     font-size: 2vmin;
@@ -508,7 +557,7 @@ ul.topnav li a:hover{
     text-align: center;
     margin-top: 1%;
     letter-spacing: 1px;
-    
+
 
 }
 
@@ -791,7 +840,7 @@ ul.topnav li a:hover{
     text-align: center;
     color: #1E392A;
     padding: 2% 5% 0 5%;
-    
+
 }
 
 
